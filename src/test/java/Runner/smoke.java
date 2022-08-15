@@ -4,11 +4,11 @@ import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features="src/test/resources/Features/cart.feature",
+        features="src/test/resources/Features/home.feature",
         glue = "Steps",
         dryRun =false,
         monochrome = true,
-        tags = "@c",
+        tags = "@n",
         plugin = {"pretty", "html:target/cucumber.html","json:target/cucumber.json"}
 )
 public class smoke {

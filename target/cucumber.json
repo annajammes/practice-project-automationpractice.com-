@@ -3,11 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-08-15T13:33:35.955Z",
+        "start_timestamp": "2022-08-15T13:54:42.702Z",
         "before": [
           {
             "result": {
-              "duration": 13149000000,
+              "duration": 12668000000,
               "status": "passed"
             },
             "match": {
@@ -15,14 +15,14 @@
             }
           }
         ],
-        "line": 3,
-        "name": "adding and deleting items to the cart",
+        "line": 8,
+        "name": "click next and previous button",
         "description": "",
-        "id": "cart-action;adding-and-deleting-items-to-the-cart",
+        "id": "search;click-next-and-previous-button",
         "after": [
           {
             "result": {
-              "duration": 1078000000,
+              "duration": 1212000000,
               "status": "passed"
             },
             "match": {
@@ -35,102 +35,32 @@
         "steps": [
           {
             "result": {
-              "duration": 6823000000,
+              "duration": 4221000000,
               "status": "passed"
-            },
-            "line": 4,
-            "name": ":user on automationpractice website clicks on cart icon",
-            "match": {
-              "location": "Steps.CartStep.user_on_automationpractice_website_clicks_on_cart_icon()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 5,
-            "name": ":user clicks on checkout option",
-            "match": {
-              "location": "Steps.CartStep.user_clicks_on_checkout_option()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 31000000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "user clicks on dresses option and then on Evenig dresses and add an item",
-            "match": {
-              "location": "Steps.CartStep.user_clicks_on_dresses_option_and_then_on_evenig_dresses_and_add_an_item()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 12464000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "user increses item quantity and decrese item quantity and cliks on delete icon",
-            "match": {
-              "location": "Steps.CartStep.user_increses_item_quantity_and_decrese_item_quantity_and_cliks_on_delete_icon()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id\u003d\"home-page-tabs\"]/li[2]/a\"}\n  (Session info: chrome\u003d104.0.5112.81)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-QQSE75B\u0027, ip: \u0027172.18.240.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_192\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\\Users\\saima\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59475}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: a2937409938f8fe028d7c327b56550cf\n*** Element info: {Using\u003dxpath, value\u003d//*[@id\u003d\"home-page-tabs\"]/li[2]/a}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy17.click(Unknown Source)\r\n\tat Steps.CartStep.user_clicks_on_home_icon_and_on_best_seller_option_add_an_item(CartStep.java:58)\r\n\tat ✽.user clicks on Home icon and on Best seller option add an item(file:///C:/Users/saima/IdeaProjects/automationpratice.com/src/test/resources/Features/cart.feature:8)\r\n",
-              "duration": 29797000000,
-              "status": "failed"
-            },
-            "line": 8,
-            "name": "user clicks on Home icon and on Best seller option add an item",
-            "match": {
-              "location": "Steps.CartStep.user_clicks_on_home_icon_and_on_best_seller_option_add_an_item()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "skipped"
             },
             "line": 9,
-            "name": "user clicks continue shopping option",
+            "name": "user clicks next button and previous button on home page",
             "match": {
-              "location": "Steps.CartStep.user_clicks_continue_shopping_option()"
+              "location": "Steps.HomeStep.user_clicks_next_button_and_previous_button_on_home_page()"
             },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 10,
-            "name": "user clicks on cart option again and clicks on close option cart is empty now",
-            "match": {
-              "location": "Steps.CartStep.user_clicks_on_cart_option_again_and_clicks_on_close_option_cart_is_empty_now()"
-            },
-            "keyword": "Then "
+            "keyword": "* "
           }
         ],
         "tags": [
           {
-            "name": "@c"
+            "name": "@regression"
           },
           {
-            "name": "@smoke"
+            "name": "@n"
           }
         ]
       }
     ],
-    "name": "cart action",
+    "name": "search",
     "description": "",
-    "id": "cart-action",
+    "id": "search",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/Features/cart.feature",
+    "uri": "file:src/test/resources/Features/home.feature",
     "tags": []
   }
 ]

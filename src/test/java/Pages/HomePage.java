@@ -18,6 +18,11 @@ public class HomePage {
     @FindBy(xpath ="//a[@title='Log in to your customer account']")
    public WebElement signIn;
 
+    @FindBy(xpath ="//*[@id=\"homepage-slider\"]/div/div[2]/div/a[2]")
+    public WebElement nextButton;
+
+    @FindBy(xpath ="//*[@id=\"homepage-slider\"]/div/div[2]/div/a[1]")
+    public WebElement previousButton;
 
 public HomePage(){
     PageFactory.initElements(driver,this);
