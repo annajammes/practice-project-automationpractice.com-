@@ -31,4 +31,25 @@ public class HomeStep extends CommonMethods {
        homePage.previousButton.click();
         Thread.sleep(2000);
     }
+
+    @Given("user select a subject heading")
+    public void user_select_a_subject_heading() {
+
+    }
+    @Given("user then enter email address and order reference")
+    public void user_then_enter_email_address_and_order_reference() {
+
+    }
+    @Given("user then attach file")
+    public void user_then_attach_file() {
+
+    }
+    @Given("user enter message")
+    public void user_enter_message() {
+
+    }
+    @Given("user cliks send")
+    public void user_cliks_send() {
+
+    }
 }

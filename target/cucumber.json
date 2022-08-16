@@ -3,11 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-08-15T13:54:42.702Z",
+        "start_timestamp": "2022-08-16T00:10:31.630Z",
         "before": [
           {
             "result": {
-              "duration": 12668000000,
+              "duration": 5000000,
               "status": "passed"
             },
             "match": {
@@ -15,14 +15,13 @@
             }
           }
         ],
-        "line": 8,
-        "name": "click next and previous button",
+        "line": 11,
+        "name": "customer service",
         "description": "",
-        "id": "search;click-next-and-previous-button",
+        "id": "search;customer-service",
         "after": [
           {
             "result": {
-              "duration": 1212000000,
               "status": "passed"
             },
             "match": {
@@ -35,14 +34,47 @@
         "steps": [
           {
             "result": {
-              "duration": 4221000000,
-              "status": "passed"
+              "status": "undefined"
             },
-            "line": 9,
-            "name": "user clicks next button and previous button on home page",
-            "match": {
-              "location": "Steps.HomeStep.user_clicks_next_button_and_previous_button_on_home_page()"
+            "line": 12,
+            "name": "user select a subject heading",
+            "match": {},
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "status": "skipped"
             },
+            "line": 13,
+            "name": "user then enter email address and order reference",
+            "match": {},
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "user then attach file",
+            "match": {},
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "user enter message",
+            "match": {},
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "user cliks send",
+            "match": {},
             "keyword": "* "
           }
         ],
@@ -51,7 +83,7 @@
             "name": "@regression"
           },
           {
-            "name": "@n"
+            "name": "@f"
           }
         ]
       }

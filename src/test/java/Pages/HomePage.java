@@ -24,6 +24,35 @@ public class HomePage {
     @FindBy(xpath ="//*[@id=\"homepage-slider\"]/div/div[2]/div/a[1]")
     public WebElement previousButton;
 
+    @FindBy(xpath ="//*[@id=\"contact-link\"]/a")
+    public WebElement contactUs;
+
+    @FindBy(id ="id_contact")
+    public WebElement subjectHeading;
+
+    @FindBy(id ="id_contact")
+    public WebElement emailAddres;
+
+    @FindBy(id ="id_order")
+    public WebElement orderReference;
+
+    @FindBy(xpath ="//*[@id=\"submitMessage\"]/span")
+    public WebElement send;
+
+    @FindBy(id="message")
+    public WebElement message;
+
+ @FindBy(id="fileUpload")
+ public WebElement uploadFile;
+
+
+
+
+
+
+
+
+
 public HomePage(){
     PageFactory.initElements(driver,this);
 }
