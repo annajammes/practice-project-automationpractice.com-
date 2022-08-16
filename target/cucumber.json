@@ -3,11 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-08-16T00:10:31.630Z",
+        "start_timestamp": "2022-08-16T10:12:37.351Z",
         "before": [
           {
             "result": {
-              "duration": 5000000,
+              "duration": 23363000000,
               "status": "passed"
             },
             "match": {
@@ -15,13 +15,14 @@
             }
           }
         ],
-        "line": 11,
+        "line": 13,
         "name": "customer service",
         "description": "",
         "id": "search;customer-service",
         "after": [
           {
             "result": {
+              "duration": 940000000,
               "status": "passed"
             },
             "match": {
@@ -34,47 +35,62 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
-            },
-            "line": 12,
-            "name": "user select a subject heading",
-            "match": {},
-            "keyword": "* "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 13,
-            "name": "user then enter email address and order reference",
-            "match": {},
-            "keyword": "* "
-          },
-          {
-            "result": {
-              "status": "skipped"
+              "duration": 11366000000,
+              "status": "passed"
             },
             "line": 14,
-            "name": "user then attach file",
-            "match": {},
+            "name": "user select a subject heading",
+            "match": {
+              "location": "Steps.HomeStep.user_select_a_subject_heading()"
+            },
             "keyword": "* "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 4576000000,
+              "status": "passed"
             },
             "line": 15,
-            "name": "user enter message",
-            "match": {},
+            "name": "user then enter email address and order reference",
+            "match": {
+              "location": "Steps.HomeStep.user_then_enter_email_address_and_order_reference()"
+            },
             "keyword": "* "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 70000000,
+              "status": "passed"
             },
             "line": 16,
+            "name": "user then attach file",
+            "match": {
+              "location": "Steps.HomeStep.user_then_attach_file()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 256000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user enter message",
+            "match": {
+              "location": "Steps.HomeStep.user_enter_message()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 12520000000,
+              "status": "passed"
+            },
+            "line": 18,
             "name": "user cliks send",
-            "match": {},
+            "match": {
+              "location": "Steps.HomeStep.user_cliks_send()"
+            },
             "keyword": "* "
           }
         ],

@@ -33,23 +33,29 @@ public class HomeStep extends CommonMethods {
     }
 
     @Given("user select a subject heading")
-    public void user_select_a_subject_heading() {
-
+    public void user_select_a_subject_heading()throws InterruptedException {
+        homePage.contactUs.click();
+        Thread.sleep(3000);
+selectDropdown(homePage.subjectHeading, "Webmaster");
     }
     @Given("user then enter email address and order reference")
-    public void user_then_enter_email_address_and_order_reference() {
-
+    public void user_then_enter_email_address_and_order_reference() throws InterruptedException {
+        scrollWebsiteWindow(452,494);
+        Thread.sleep(4000);
+sendText(homePage.emailAddres,"support@seleniumframework.com");
+sendText(homePage.orderReference,"abc1234");
     }
     @Given("user then attach file")
     public void user_then_attach_file() {
-
+homePage.uploadFile.sendKeys("C:\\Users\\saima\\OneDrive\\Desktop\\comd.txt");
     }
     @Given("user enter message")
     public void user_enter_message() {
-
+        sendText(homePage.message,"i want to report a bug that proceed to checkout button is not working.");
     }
     @Given("user cliks send")
     public void user_cliks_send() {
+        homePage.send.click();
 
     }
 }

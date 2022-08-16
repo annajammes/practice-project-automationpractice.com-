@@ -30,7 +30,7 @@ public class HomePage {
     @FindBy(id ="id_contact")
     public WebElement subjectHeading;
 
-    @FindBy(id ="id_contact")
+    @FindBy(xpath="//*[@id=\"email\"]")
     public WebElement emailAddres;
 
     @FindBy(id ="id_order")
