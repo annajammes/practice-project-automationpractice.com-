@@ -45,10 +45,17 @@ public class HomePage {
  @FindBy(id="fileUpload")
  public WebElement uploadFile;
 
+ @FindBy(xpath="//*[@id=\"social_block\"]/ul/li[1]/a")
+ public WebElement faceBook;
 
+ @FindBy(xpath="//*[@id=\"social_block\"]/ul/li[2]/a")
+ public WebElement twitter;
 
+ @FindBy(xpath="//*[@id=\"social_block\"]/ul/li[3]/a")
+ public WebElement yotube;
 
-
+ @FindBy(xpath="//*[@id=\"social_block\"]/ul/li[4]/a")
+ public WebElement googlePliuse;
 
 
 

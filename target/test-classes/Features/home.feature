@@ -16,3 +16,8 @@ Feature: search
     * user then attach file
     * user enter message
     * user cliks send
+
+  @regression @t
+  Scenario: other Tabs
+    * user select faceBook ,twitter, youtube and google pluse links
+    *  new windows opens

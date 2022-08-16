@@ -3,11 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-08-16T10:12:37.351Z",
+        "start_timestamp": "2022-08-16T11:25:38.742Z",
         "before": [
           {
             "result": {
-              "duration": 23363000000,
+              "duration": 24321000000,
               "status": "passed"
             },
             "match": {
@@ -15,14 +15,14 @@
             }
           }
         ],
-        "line": 13,
-        "name": "customer service",
+        "line": 21,
+        "name": "other Tabs",
         "description": "",
-        "id": "search;customer-service",
+        "id": "search;other-tabs",
         "after": [
           {
             "result": {
-              "duration": 940000000,
+              "duration": 1319000000,
               "status": "passed"
             },
             "match": {
@@ -35,61 +35,24 @@
         "steps": [
           {
             "result": {
-              "duration": 11366000000,
+              "duration": 22031000000,
               "status": "passed"
             },
-            "line": 14,
-            "name": "user select a subject heading",
+            "line": 22,
+            "name": "user select faceBook ,twitter, youtube and google pluse links",
             "match": {
-              "location": "Steps.HomeStep.user_select_a_subject_heading()"
+              "location": "Steps.HomeStep.user_select_face_book_twitter_youtube_and_google_pluse_links()"
             },
             "keyword": "* "
           },
           {
             "result": {
-              "duration": 4576000000,
               "status": "passed"
             },
-            "line": 15,
-            "name": "user then enter email address and order reference",
+            "line": 23,
+            "name": "new windows opens",
             "match": {
-              "location": "Steps.HomeStep.user_then_enter_email_address_and_order_reference()"
-            },
-            "keyword": "* "
-          },
-          {
-            "result": {
-              "duration": 70000000,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "user then attach file",
-            "match": {
-              "location": "Steps.HomeStep.user_then_attach_file()"
-            },
-            "keyword": "* "
-          },
-          {
-            "result": {
-              "duration": 256000000,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "user enter message",
-            "match": {
-              "location": "Steps.HomeStep.user_enter_message()"
-            },
-            "keyword": "* "
-          },
-          {
-            "result": {
-              "duration": 12520000000,
-              "status": "passed"
-            },
-            "line": 18,
-            "name": "user cliks send",
-            "match": {
-              "location": "Steps.HomeStep.user_cliks_send()"
+              "location": "Steps.HomeStep.new_windows_opens()"
             },
             "keyword": "* "
           }
@@ -99,7 +62,7 @@
             "name": "@regression"
           },
           {
-            "name": "@f"
+            "name": "@t"
           }
         ]
       }

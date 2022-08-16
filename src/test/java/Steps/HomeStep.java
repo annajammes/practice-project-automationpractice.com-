@@ -58,4 +58,17 @@ homePage.uploadFile.sendKeys("C:\\Users\\saima\\OneDrive\\Desktop\\comd.txt");
         homePage.send.click();
 
     }
+
+    @Given("user select faceBook ,twitter, youtube and google pluse links")
+    public void user_select_face_book_twitter_youtube_and_google_pluse_links() {
+      homePage.faceBook.click();
+      homePage.twitter.click();
+      homePage.yotube.click();
+      homePage.googlePliuse.click();
+      handelMultipleWindows();
+    }
+    @Given("new windows opens")
+    public void new_windows_opens() {
+
+    }
 }

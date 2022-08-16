@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
         glue = "Steps",
         dryRun =false,
         monochrome = true,
-        tags = "@f",
+        tags = "@t",
         plugin = {"pretty", "html:target/cucumber.html","json:target/cucumber.json"}
 )
 public class smoke {
